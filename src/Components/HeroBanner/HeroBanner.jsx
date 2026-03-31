@@ -6,7 +6,7 @@ import bannerImage from "../../assets/banner.png";
 
 const HeroBanner = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row gap-5 max-w-7xl m-auto my-15 items-center p-10">
+    <div className="flex flex-col-reverse md:flex-row gap-5 max-w-7xl m-auto md:my-15 items-center p-10">
       <div>
         <div className="space-y-4 flex flex-col justify-center items-center md:justify-start md:items-start">
           <div className="flex items-center gap-2 px-4 py-2 bg-[#E1E7FF] w-fit rounded-full justify-center">
