@@ -3,9 +3,7 @@ import userImage from "../../assets/user.png";
 import packageImage from "../../assets/package.png";
 import rocketImage from "../../assets/rocket.png";
 
-
 const GetStarted = () => {
-
   return (
     <div className="bg-[#F9FAFC] py-15">
       <div className="space-y-5 my-15 max-w-7xl m-auto">
