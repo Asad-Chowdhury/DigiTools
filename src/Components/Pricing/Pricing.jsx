@@ -14,7 +14,7 @@ const Pricing = ({ modelPrices }) => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-5 content-between">
+      <div className="grid md:grid-cols-3 gap-5 content-between my-15">
         {prices.map((price) => {
           return <PricingCard price={price}></PricingCard>;
         })}

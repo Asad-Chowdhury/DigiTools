@@ -7,6 +7,7 @@ import Highlights from "./Components/Highlights/Highlights";
 import Products from "./Components/Products/Products";
 import GetStarted from "./Components/GetStarted/GetStarted";
 import Pricing from "./Components/Pricing/Pricing";
+import ReadyToTransform from "./Components/ReadyToTransform/ReadyToTransform";
 
 const getPrices = async () => {
   const res = await fetch("/pricing.json");
@@ -39,6 +40,7 @@ function App() {
         <Suspense fallback={spinner}>
           <Pricing modelPrices={modelPrices}></Pricing>
         </Suspense>
+        <ReadyToTransform></ReadyToTransform>
       </div>
     </>
   );
