@@ -9,7 +9,8 @@
       "Community support",
       "1 project per month"
     ],
-    "isPopular": false
+    "isPopular": false,
+    "ctaText": "Get Started Free"
   },
   {
     "plan": "Pro",
@@ -23,7 +24,8 @@
       "Cloud sync",
       "Advanced analytics"
     ],
-    "isPopular": true
+    "isPopular": true,
+    "ctaText": "Start Pro Trial"
   },
   {
     "plan": "Enterprise",
@@ -37,6 +39,7 @@
       "SLA guarantee",
       "Custom branding"
     ],
-    "isPopular": false
+    "isPopular": false,
+    "ctaText": "Contact Sales"
   }
 ]
