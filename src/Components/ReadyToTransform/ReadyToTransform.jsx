@@ -20,7 +20,7 @@ const ReadyToTransform = () => {
             <button className="btn text-[#9514fa] rounded-full font-medium md:px-10">
               Explore Products
             </button>
-            <button className="btn bg-[#9514fa] text-white rounded-full font-medium md:px-10">
+            <button className="btn bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full font-medium md:px-10">
               View Pricing
             </button>
           </div>
