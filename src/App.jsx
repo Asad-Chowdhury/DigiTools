@@ -8,6 +8,7 @@ import Products from "./Components/Products/Products";
 import GetStarted from "./Components/GetStarted/GetStarted";
 import Pricing from "./Components/Pricing/Pricing";
 import ReadyToTransform from "./Components/ReadyToTransform/ReadyToTransform";
+import Footer from "./Components/Footer/Footer";
 
 const getPrices = async () => {
   const res = await fetch("/pricing.json");
@@ -41,6 +42,7 @@ function App() {
           <Pricing modelPrices={modelPrices}></Pricing>
         </Suspense>
         <ReadyToTransform></ReadyToTransform>
+        <Footer></Footer>
       </div>
     </>
   );
