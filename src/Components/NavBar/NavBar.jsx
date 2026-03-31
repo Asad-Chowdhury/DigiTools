@@ -13,7 +13,7 @@ const NavBar = () => {
       />
 
       <div>
-        <ul className="flex justify-center gap-5 items-center">
+        <ul className="flex flex-col md:flex-row justify-center gap-5 items-center">
           <li>
             <a href="">Products</a>
           </li>
@@ -34,7 +34,7 @@ const NavBar = () => {
 
 
 
-      <div className="flex justify-end gap-5 items-center">
+      <div className="flex justify-center gap-5 items-center">
         <ShoppingCart className="w-5 h-5"></ShoppingCart>
         <a href="">Login</a>
         <button className="btn bg-[#4f39f6] text-white rounded-3xl font-semibold">
