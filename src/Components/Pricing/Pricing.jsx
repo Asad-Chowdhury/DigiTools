@@ -2,8 +2,8 @@ import React from "react";
 import { use } from "react";
 import PricingCard from "./PricingCard";
 
-const Pricing = ({ modelPrices }) => {
-  const prices = use(modelPrices);
+const Pricing = ({ simplePrices }) => {
+  const prices = use(simplePrices);
   return (
     <div className="max-w-7xl m-auto">
       <div className="max-w-7xl m-auto my-15 space-y-5">
@@ -15,8 +15,8 @@ const Pricing = ({ modelPrices }) => {
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-5 content-between my-15">
-        {prices.map((price) => {
-          return <PricingCard price={price}></PricingCard>;
+        {prices.map((price, index) => {
+          return <PricingCard price={price} key={index}></PricingCard>;
         })}
       </div>
     </div>

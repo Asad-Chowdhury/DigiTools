@@ -2,7 +2,7 @@ import React from "react";
 import logoImage from "../../assets/digitools-logo.png";
 import { ShoppingCart } from "lucide-react";
 
-const NavBar = () => {
+const NavBar = ({ carts, onCartClick }) => {
   return (
     <div className="flex flex-col gap-5 md:flex-row justify-between max-w-7xl m-auto items-center pt-5">
       <img
@@ -32,10 +32,17 @@ const NavBar = () => {
         </ul>
       </div>
 
-
-
       <div className="flex justify-center gap-5 items-center">
-        <ShoppingCart className="w-5 h-5"></ShoppingCart>
+        <div className="relative inline-block">
+          <ShoppingCart
+            className="w-5 h-5 cursor-pointer"
+            onClick={onCartClick}
+          />
+          <div className="badge badge-primary badge-sm absolute -top-3 -right-5">
+            {carts.length}
+          </div>
+        </div>
+
         <a href="">Login</a>
         <button className="btn bg-[#4f39f6] text-white rounded-3xl font-semibold">
           Get Started

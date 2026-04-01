@@ -1,0 +1,109 @@
+[
+  {
+    "id": "p1",
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "https://i.ibb.co.com/sp07jSmg/design-tool.png"
+  },
+  {
+    "id": "p2",
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+    "icon": "https://i.ibb.co.com/hxQRmWPC/operation.png"
+  },
+  {
+    "id": "p3",
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["10M+ assets", "Commercial use", "No attribution"],
+    "icon": "https://i.ibb.co.com/DgMT87kJ/portfolio.png"
+  },
+  {
+    "id": "p4",
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["50+ automations", "API access", "Custom workflows"],
+    "icon": "https://i.ibb.co.com/84gg9tfK/social-media.png"
+  },
+  {
+    "id": "p5",
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/DDpRwj2T/writing-2327400-1.png"
+  },
+  {
+    "id": "p6",
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
+    "icon": "https://i.ibb.co.com/sp07jSmg/design-tool.png"
+  },
+  {
+    "id": "p7",
+    "name": "Email Campaign Suite",
+    "description": "Professional email templates, automation sequences, and analytics to boost conversions.",
+    "price": 24,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Drag & drop editor",
+      "Automation sequences",
+      "Detailed analytics"
+    ],
+    "icon": "https://i.ibb.co.com/hxQRmWPC/operation.png"
+  },
+  {
+    "id": "p8",
+    "name": "SEO Starter Pack",
+    "description": "Tools and templates to optimize content and improve search rankings.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best-value",
+    "features": ["Site audits", "Keyword tracking", "On-page recommendations"],
+    "icon": "https://i.ibb.co.com/DgMT87kJ/portfolio.png"
+  },
+  {
+    "id": "p9",
+    "name": "Analytics Insights",
+    "description": "Advanced dashboards and reports to understand user behavior and product performance.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Custom dashboards", "Funnel analysis", "Exportable reports"],
+    "icon": "https://i.ibb.co.com/84gg9tfK/social-media.png"
+  }
+]
