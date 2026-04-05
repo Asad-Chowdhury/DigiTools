@@ -12,7 +12,6 @@ import Pricing from "./Components/Pricing/Pricing";
 import ReadyToTransform from "./Components/ReadyToTransform/ReadyToTransform";
 import Footer from "./Components/Footer/Footer";
 
-
 const getPrices = async () => {
   const res = await fetch("/pricing.json");
   return res.json();
@@ -40,12 +39,11 @@ function App() {
   const [activeTab, setActiveTab] = useState("Products");
   const [carts, setCarts] = useState([]);
 
-
   const productsRef = useRef(null);
 
   const handleScrollToCart = () => {
     setActiveTab("Cart");
- 
+
     setTimeout(() => {
       productsRef.current?.scrollIntoView({ behavior: "smooth" });
     }, 0);
